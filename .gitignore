@@ -1,0 +1,6 @@
+*.swp
+.commit.md
+out/
+
+dist
+node_modules

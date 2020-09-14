@@ -1,0 +1,26 @@
+{
+  "name": "question1",
+  "version": "1.0.0",
+  "description": "The question tests the candidate's to fix a bug with a slide-out menu.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c scripts/rollup.js",
+    "start": "serve dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GSA Pte Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.2",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "rollup": "^2.26.11",
+    "rollup-plugin-vue": "^5.1.5",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
